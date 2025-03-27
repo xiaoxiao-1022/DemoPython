@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+      - id: black
+        language_version: python3.13
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0  # 使用最新版本的 Flake8
+    hooks:
+      - id: flake8
